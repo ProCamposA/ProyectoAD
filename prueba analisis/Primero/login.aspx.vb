@@ -33,7 +33,7 @@ Partial Class _Default
 
         Dim sql As String
 
-        sql = "select * from usuario where usuario = '" & usuario.Text & "' and contraseña ='" & contra.Text & "'"
+        sql = "selecttt * from usuario where usuario = '" & usuario.Text & "' and contraseña ='" & contra.Text & "'"
 
         Dim cmd As New SqlCommand(sql, conexion)
         Dim dr As SqlDataReader
